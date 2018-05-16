@@ -1,0 +1,404 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+html{
+	background-color:#FFFFFF;
+}
+
+body {
+	font-family: 'Merriweather Sans', arial, verdana;
+}
+
+.nav{
+	position: relative;
+	z-index:1000;
+	width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+
+.nav li {
+    float: left;
+  /*  border:1px solid #bbb;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35);*/
+}
+
+.nav li:last-child {
+   border: none;
+}
+
+ li a.nav, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #336699;
+    color: #D0EBFF;
+}
+
+.nav .active {
+    background-color: #336699;
+    color: white;
+}
+
+ li.nav.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width:770px) {
+  ul.media_screen li:not(:first-child) {display: none;}
+  ul.media_screen li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:770px) {
+  ul.media_screen.responsive {position: relative;}
+  ul.media_screen.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.media_screen.responsive li {
+    float: none;
+    display: inline;
+	margin-bottom:1px;
+  }
+  ul.media_screen.responsive li a {
+    display: block;
+    text-align: left;
+  }
+	.logo_image{
+		width:100%;
+	}
+	
+	.dropdown-content {
+    display: none;
+    position: relative;
+	background-color: #FFFFFF;
+	}
+	
+}
+
+.logo{
+	background-image:url("school_logo_background_color.png");
+	background-size:100% 100%;
+	font-size:125%;
+	
+}
+
+.top_right_side {
+	text-align: right;
+}
+
+.top_right_side form{
+	float:right;
+}
+
+
+.nav li.icon {
+	display: none;
+}
+
+.left_data{
+	float: left;
+	width:300px;
+	
+}
+
+
+.left_top{
+	
+	//width:300px;
+	height:300px;
+	border-radius:5px;
+	overflow: hidden;
+	//border:5px solid #ffffff;
+	border:1px solid #bbb;
+	
+
+}
+.calendar_color{
+	text-align: center;
+    text-decoration: none;
+	height:10%;
+    padding:0px;
+	margin:0px;
+	background-color:#F0BD84;
+}
+
+.left_middle{
+	border-radius: 5px;
+	border:1px solid #bbb;
+	padding:0px;
+	overflow: hidden;
+	//width:300px;
+	height:300px;
+	position: relative;
+	//background-color: #D0EBFF;
+	//border:5px solid #ffffff;
+}
+
+.school_activity{
+	text-align: center;
+    text-decoration: none;
+	padding:0px;
+	margin:0px;
+	background-color:#e4ff94;
+}
+
+h4 {
+	padding:0px;
+	margin:5px;
+
+}
+
+p{
+	padding:0px;
+	margin:5px;
+	float: left;
+}
+
+.more{
+	position: absolute;
+	padding:0px;
+	margin:5px;
+	top:88%;
+	right:1%;
+	background-color: #d4d6d0;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.activity_image{
+float: left;
+padding:5px 0 0 5px;
+}
+
+.left_end{
+
+	border-radius: 5px;
+	border:1px solid #bbb;
+	padding:0px;
+	margin:0px;
+	overflow: hidden;
+	//width:300px;
+	height:700px;
+}
+
+.left_end  table{
+	width:100%;
+}
+
+.left_end th{
+	background-color: #ffcccc;
+	height:30px;
+	padding:0px;
+	margin:0px;
+}
+
+.left_end h3{
+	background-color:#15FF00;
+	text-align: center;
+    text-decoration: none;
+	height:10%;
+    padding:0px;
+	margin:0px;
+}
+
+.right_data{
+	position:absolute; 
+	left:310px;
+	float: left;
+	width:60%;
+}
+
+.new{
+	border-radius: 5px;
+	border:1px solid #bbb;
+	padding:0px;
+	margin:0px;
+	height:300px;
+	width:100%;
+	//background-color: #ff8cff;
+	//border:5px solid #ffffff;
+	
+}
+
+.new_title{
+	background-color:#87ecfa;
+	text-align: center;
+    text-decoration: none;
+	height:30px;
+    padding:0px;
+	margin:0px;
+
+}
+
+.new table{
+	width:100%;
+}
+
+.new th {
+	height:30px;
+	padding:0px;
+	margin:0px;
+}
+
+.student_performance{
+	float: left;
+	height:300px;
+	width:49%;
+	border:1px solid #bbb;
+	border-radius: 5px;
+	padding:0px;
+}
+
+.student_performance table{
+	width:100%;
+}
+
+.student_performance th{
+	height:30px;
+	padding:0px;
+	margin:0px;
+}
+
+.performance_title{
+	background-color:#d5b6f0;
+	text-align: center;
+    text-decoration: none;
+	height:10%;
+    padding:0px;
+	margin:0px;
+}
+
+.graduated_performance{
+    overflow: hidden;
+	float: left;
+	height:300px;
+	width:49%;
+	border:1px solid #bbb;
+	border-radius: 5px;
+	padding:0px;
+	
+}
+
+.graduated_performance table{
+	width:100%;
+}
+
+.grad_perfor_title{
+	background-color: #ffff80;
+	text-align: center;
+    text-decoration: none;
+	height:10%;
+    padding:0px;
+	margin:0px;
+}
+
+.right_end{
+	border-radius: 5px;
+	border:1px solid #bbb;
+	padding:0px;
+	margin:0px;
+	overflow: hidden;
+	width:100%;
+	height:700px;
+
+}
+
+.right_end table{
+	width:100%;
+}
+
+.right_end th{
+	height:30px;
+	padding:0px;
+	margin:0px;
+	background-color: #cc9900;
+}
+
+.footer{
+	clear:both;
+	width:100%;
+	padding:10px;
+	background-color: #336699;
+	border:5px solid #ffffff;
+	color: white;
+}
+.footer-content{
+
+	width:100%;
+
+
+}
+.horizontal_space{
+width:100%;
+height:10px;
+background-color: #ffffff;
+}
+
+.section{
+	position: relative;
+}
+
+.middle{
+position:absolute
+	top:0px;
+}
+
+.top{
+	position:fixed;
+	margin-left:90%;
+	padding:10px;
+	float:left;
+	background-color: #336699;
+	border-radius: 8px;
+	box-shadow:3px 3px 10px #666;
+	z-index:1;
+}
+
+.top a:visited{
+	background-color: #336699;
+	color:white;
+}
+
+.top a:link{
+	background-color: #336699;
+	color:white;
+}
+

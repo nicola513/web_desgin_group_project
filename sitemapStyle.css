@@ -1,0 +1,87 @@
+#info_top{
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+}
+
+.top_width{	
+	width: 33%;
+ 	float: left;
+}
+
+.top_height{
+	height: 240px;
+}
+
+.large_top fieldset{
+	height:260px;
+}
+
+ #info_top.large_top{
+	display: inline-block;
+	width: 100%;
+	height: 310px;
+}
+
+.x_large_top fieldset{
+	height: 350px;
+}
+
+ #info_top.x_large_top{
+	display: inline-block;
+	width: 100%;
+	height: 390px;
+}
+
+
+#info_middle{
+	display: inline-block;
+	width: 100%;
+	height: 150px;
+}
+
+.middle_width{
+	width: 33%;
+ 	float: left;
+}
+
+.middle_height{
+	height: 100px;
+}
+
+#info_middle.x_large_middle{
+	display: inline-block;
+	height: 190px;
+	width: 100%;
+}
+
+.x_large_middle fieldset{
+	height: 150px;
+}
+
+
+#info_end{
+ 	display: inline-block;
+ 	width: 100%;
+ 	height: 100px;
+ }
+
+.end_width{
+	width: 50%;
+ 	float: left;
+}
+
+.end_height{
+	height: 150px;
+}
+
+#info_end.x_large_end{
+	display: inline-block;
+ 	width: 100%;
+ 	height: 190px;
+}
+
+.x_large_end fieldset{
+	height: 200px;
+}
+
